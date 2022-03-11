@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-1;95;0c * main - main block
+* main - main block
  * Description: Print all possible combinations of two digits.
  * Numbers must be separated by commas and a space.
  * 01 and 10 are considered as the same combination of the two digits.
@@ -19,8 +19,8 @@ int main(void)
 
 	while (x < 100)
 	{
-		y = x % 10; /* singles digit */
-		z = x / 10; /* doubles digit */
+		y = x % 10;
+		z = x / 10;
 
 		if (z < y)
 		{
