@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+ * mul - to multiply two numbers
+ * @a: it hold var
+ *
+ */
+int mul(int a, int b)
+{
+	return (a * b);
+}
