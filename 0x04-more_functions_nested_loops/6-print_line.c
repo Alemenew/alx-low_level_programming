@@ -12,6 +12,8 @@ void print_line(int n)
 	while (a < n)
 	{
 		_putchar(95);
+
+		a++;
 	}
 	_putchar(10);
 }
