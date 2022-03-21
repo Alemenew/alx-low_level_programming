@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * puts2 - print only even index
+ * puts2 - updated by 2
  *
  * @str: hold string
  */
+
 void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0';  i +=2)
+	for (i = 0; str[i] != '\0';  i += 2)
 	{
 		_putchar(str[i]);
 	}
