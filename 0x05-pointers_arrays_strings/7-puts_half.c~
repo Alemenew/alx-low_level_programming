@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ *
+ *
+ *
+ */
+
+void puts_half(char *str)
+{
+	int i, j;
+
+	i = 0;
+
+	while(str[i] != '\0')
+	{
+		i++;
+	}
+
+	j = i - 1;
+
+	while (str[j])
+	{
+		if(str[j]/2)
+			_putchar(str[j]);
+	}
+	_putchar('\n');
+}
