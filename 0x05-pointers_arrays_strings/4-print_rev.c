@@ -18,12 +18,10 @@ void print_rev(char *s)
 	}
 
 	j = i - 1;
-
 	while (s[j])
-
 	{
+		_putchar(s[j]);
 		j--;
-		_putchar(*s);
 	}
 	_putchar('\n');
 }
