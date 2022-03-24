@@ -11,4 +11,6 @@ void print_array(int *a, int n);
 char *string_toupper(char *n);
 char *cap_string(char *);
 char *leet(char *);
+char *rot13(char *);
+
 #endif
