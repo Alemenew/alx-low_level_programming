@@ -15,5 +15,6 @@ int hai(int n, int d);
 int is_palindrome(char *s);
 int check_pal(char *s, int i, int len);
 int _strlen_recursion(char *s);
+int wildcmp(char *s1, char *s2);
 
 #endif
