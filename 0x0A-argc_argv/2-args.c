@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entery point
@@ -9,10 +9,13 @@
  */
 
 int main(int argc, char **argv)
+
 {
-	if (argv[0])
+	int i;
+	for (i = 0; i < argc; i++)
+
 	{
-		printf("%d\n", argc - 1);
+		printf("%s\n", argv[i]);
 	}
-	return(0);
+	return (0);
 }
