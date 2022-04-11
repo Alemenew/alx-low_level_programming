@@ -2,10 +2,8 @@
 #include "dog.h"
 
 /**
- *
- *
- *
- *
+ * print_dog - print function
+ * @d: holds elements of struct dog
  */
 
 void print_dog(struct dog *d)
@@ -15,7 +13,7 @@ void print_dog(struct dog *d)
 
 	else if (d->name == NULL)
 		printf("Name: (nil)");
-	else if(d->owner == NULL)
+	else if (d->owner == NULL)
 		printf("nul");
 
 	else
