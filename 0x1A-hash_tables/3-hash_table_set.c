@@ -1,4 +1,4 @@
-k#include "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * create_add_node - create and inser a node to the hash table
@@ -76,3 +76,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	return (create_add_node(ht, key, value, index));
 }
+
+
+
