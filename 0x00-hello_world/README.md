@@ -1,1 +1,1 @@
-This is ALX project on C - Hello, World
+This is ALX project on C - Hello, ALX
